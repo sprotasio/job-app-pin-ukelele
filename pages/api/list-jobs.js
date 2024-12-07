@@ -1,4 +1,3 @@
-import { getListJobs, deleteJobById } from './db/database';
 import { authenticate } from '../../middleware/auth.js';
 import { authorizeRole } from '../../middleware/authorizeRole.js';
 
